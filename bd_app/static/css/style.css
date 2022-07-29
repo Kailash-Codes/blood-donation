@@ -1,0 +1,62 @@
+body{
+    background: aqua;
+    background-image: url(../images/logo2.png);
+    background-size:cover;
+    background-position: .2rem -5rem;
+    background-repeat: no-repeat;
+}
+.main-heading{
+    color: #fff;
+    font-size: 3.5rem;
+}
+#css3-spinner-svg-pulse-wrapper {
+	position: absolute;
+	overflow: hidden;
+	width: 4260px;
+	height: 210px;
+	top: 50%;
+	left: 0%;
+	margin-top: -105px;
+	margin-left: -1130px;
+	background-color: transparent;
+	animation: none;
+	-webkit-animation: none;
+}
+
+#css3-spinner-svg-pulse {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -105px;
+	margin-left: -275px;
+}
+
+#css3-spinner-pulse {
+	stroke-dasharray: 281;
+	-webkit-animation: dash 5s infinite linear forwards;
+}
+
+/*Animation*/
+@-webkit-keyframes dash {
+	from {
+		stroke-dashoffset:814;
+	}
+
+	to {
+		stroke-dashoffset:-814;
+	}
+}
+
+@keyframes dash {
+	from {
+		stroke-dashoffset:814;
+	}
+
+	to {
+		stroke-dashoffset:-814;
+	}
+}
+.quotes{
+    color:#fff;
+    font-size: 2.1875rem;
+}
